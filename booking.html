@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./booking.css">
+</head>
+
+<body>
+
+    <form>
+
+        <div class="elem-group">
+            <label for="name">Your Name</label>
+            <input type="text" placeholder="Anusha">
+            <div class="elem-group">
+
+                <label for="email">Your E-mail</label>
+                <input type="email" placeholder="@gmail.com">
+            </div>
+
+            <div class="elem-group">
+                <label for="phone">Your Phone</label>
+                <input type="tel" placeholder="498-854-554">
+            </div>
+
+            <div class="elem-group">
+
+                <label>Choose Your destination</label>
+                <input type="text" placeholder="Choose your destination">
+            </div>
+
+            <div class="elem-group inlined">
+                <label for="adult">Adults</label>
+                <input type="number" placeholder="2">
+            </div>
+
+            <div class="elem-group inlined">
+                <label for="child">Children</label>
+                <input type="number" placeholder="2">
+            </div>
+
+            <div class="elem-group inlined">
+                <label for="checkin-date">Check-in Date</label>
+                <input type="date">
+            </div>
+            <div class="elem-group inlined">
+                <label for="checkout-date">Check-out Date</label>
+                <input type="date">
+            </div>
+            <div class="elem-group ">
+                <label for="room-selection">Select Room preference</label>
+                <select name="room">
+                    <option value="">Choose a Room from List</option>
+                    <option value="connecting">connecting</option>
+                    <option value="Adjoining">Adjoining</option>
+                    <option value="Adjacent">Adjacent</option>
+                </select>
+            </div>
+
+            <div class="elem-group">
+                <label for="message">Anything Else?</label>
+                <textarea name="visitor-message" id=""
+                    placeholder="Tell us anything else that might be important"></textarea>
+            </div>
+            <hr>
+            <button type="submit">Book the Rooms</button>
+    </form>
+
+</body>
+
+</html>
